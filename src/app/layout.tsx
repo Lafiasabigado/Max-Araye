@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Anek_Telugu } from "next/font/google";
 import "./globals.css";
+import { Variable } from "lucide-react";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -11,6 +12,11 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+
+const geistAnek = Anek_Telugu ({
+  variable:"--font-geist-anek",
+  subsets: ["latin"]
+})
 
 export const metadata: Metadata = {
   title: "Max Araye",
@@ -23,9 +29,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="fr">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${geistAnek.variable} antialiased`}
       >
         {children}
       </body>
