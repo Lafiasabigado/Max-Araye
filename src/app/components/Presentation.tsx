@@ -49,11 +49,11 @@ const Presentation = () => {
           <div className='pt-5 pb-5 sm:pt-0'>
             <div className='w-full sm:w-[300px] h-full rounded-xl flex justify-center drop-shadow-sm hover:scale-105 transition-transform duration-300 ease-in-out items-center'>
               <Image 
-              src='/max.jpeg' 
-              alt='Alimi' 
+              src='/max2.png' 
+              alt='Max' 
               width={300} 
               height={300}
-              className='rounded-xl' 
+              className='rounded-2xl' 
               />
             </div>
           </div> 
