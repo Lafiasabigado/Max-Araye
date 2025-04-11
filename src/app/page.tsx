@@ -3,6 +3,7 @@ import Navbar from './components/Nav'
 import Presentation from './components/Presentation'
 import Contact from './components/Contact'
 import Skills from './components/Skills'
+import About from './components/About'
 
 const Page = () => {
   return (
@@ -10,6 +11,7 @@ const Page = () => {
       <Navbar />
       <Presentation />
       <Skills />
+      <About />
       <Contact />
     </div>
   )
