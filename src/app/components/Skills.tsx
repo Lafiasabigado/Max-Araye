@@ -7,6 +7,7 @@ import { SiLaravel } from 'react-icons/si'
 import { SiGit } from 'react-icons/si'
 import { SiVercel } from 'react-icons/si'
 import { SiRender } from 'react-icons/si'
+import { SiBootstrap } from 'react-icons/si'
 
 const Skills = () => {
   const sikills = [
@@ -58,15 +59,21 @@ const Skills = () => {
       icon:<SiLaravel className='w-10 h-10 text-red-400'/>,
       description:"Laravel pour la construction du back-end des applications"
     },
+    {
+      id:9,
+      name:"Bootstrap",
+      icon:<SiBootstrap className='w-10 h-10 text-blue-500'/>,
+      description:"Bootstrap pour la construction des interfaces utilisateur"
+    }
   ]
   return (
     <section className='max-w-5xl mx-auto py-16'>
       <div className='max-w-3xl mx-auto'>
-        <h2 className='text-2xl text-lime-500 font-bold mb-2 text-center uppercase'>Mes Compétences</h2>
-         <p className='text-gray-300 text-center pb-10'>Voila un aperçu de mes compétences </p>
-         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4'>
+        <h2 className='text-2xl text-lime-500 font-bold mb-4 text-center uppercase'>Mes Compétences</h2>
+         <p className='text-gray-300 text-center pb-10'>Découvrez un aperçu de mes compétences</p>
+         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
             {sikills.map((skill) => (
-              <div key={skill.id} className='bg-gray-800/50 m-2 text-center p-4 rounded-2xl shadow-sm hover:scale-105 transition-transform duration-300 ease-in-out'>
+              <div key={skill.id} className='bg-gray-800/50 mx-4 text-center p-4 rounded-2xl shadow-sm hover:scale-105 transition-transform duration-300 ease-in-out'>
                 <div className='flex items-center py-2 justify-center'>
                   {skill.icon}
                 </div>

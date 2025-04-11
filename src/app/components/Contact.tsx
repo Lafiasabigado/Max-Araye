@@ -11,8 +11,8 @@ const Contact = () => {
     }
     return (
       <section className='max-w-3xl mx-auto pt-16' id='contact'>
-        <h2 className='text-xl text-lime-500 font-bold mb-4 text-center uppercase'>Contactez Moi</h2>
-        <form onSubmit={handleSubmit} className='space-y-4 grid grid-cols-1 m-2 shadow-sm bg-gray-800/50 p-6 rounded-2xl'>
+        <h2 className='text-2xl text-lime-500 font-bold mb-4 text-center uppercase'>Contactez Moi</h2>
+        <form onSubmit={handleSubmit} className='space-y-4 grid grid-cols-1 m-2 shadow-sm bg-gray-800/20 p-6 rounded-2xl'>
         <label htmlFor="name">Nom</label>
         <input
           id="name"
@@ -69,11 +69,11 @@ const Contact = () => {
           field="message"
           errors={state.errors}
         />
-        <button className='transition-colors duration-200 bg-lime-500 py-2 px-4 rounded-full text-white hover:bg-lime-600' type="submit" disabled={state.submitting}>
+        <button className='transition-colors duration-200 bg-lime-600 py-2 px-4 rounded-full text-white hover:bg-lime-600' type="submit" disabled={state.submitting}>
           Envoyer
         </button>
       </form>
-      <p className='p-4 text-center text-gray-500 dark:text-gray-400'>© {new Date().getFullYear()}  Alimi Lamidi.</p>
+      <p className='p-4 text-center text-gray-500 dark:text-gray-400'>© {new Date().getFullYear()}  Max Araye.</p>
       </section>
     );
   }
