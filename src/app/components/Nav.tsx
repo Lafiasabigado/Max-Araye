@@ -32,7 +32,7 @@ export default function Navbar() {
         <div className='flex justify-between items-center h-16'>
           <Link 
            href="/" 
-            className='text-lg font-bold uppercase text-white hover:text-blue-400 transition-colors duration-200'
+            className='text-lg font-bold uppercase text-white hover:text-lime-400 transition-colors duration-200'
             data-aos="fade-right"
           >
             Max Araye
@@ -44,7 +44,7 @@ export default function Navbar() {
               <LinkR 
                 to={link.id}
                 key={index} 
-                className='hover:text-blue-400 transition-colors duration-200'
+                className='hover:text-lime-400 transition-colors duration-200'
                 data-aos="fade-down"
                 data-aos-delay={index * 100}
               >
@@ -56,7 +56,7 @@ export default function Navbar() {
           {/* Menu Burger Mobile */}
           <button 
             onClick={() => setIsOpen(!isOpen)} 
-            className='md:hidden hover:text-blue-500 transition-colors duration-200'
+            className='md:hidden hover:text-lime-500 transition-colors duration-200'
           >
             {isOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -68,7 +68,7 @@ export default function Navbar() {
             {links.map((link) => (
               <LinkR 
                 to={link.id} 
-                className='block hover:text-indigo-500 transition-colors duration-200 py-2'
+                className='block hover:text-lime-500 transition-colors duration-200 py-2'
                 onClick={() => setIsOpen(false)}
               >
                 {link.name}

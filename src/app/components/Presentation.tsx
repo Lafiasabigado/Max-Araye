@@ -9,8 +9,8 @@ import Link from 'next/link';
 
 const Presentation = () => {
   const link = [
-    "https://linkedin.com/in/maxaraye-03910a292/",
-    "https://github.com/MaxAraye"
+    "https://www.linkedin.com/in/max-araye-8a0b3827a",
+    "https://github.com/MaxLaPeuff"
   ]
   return (
     <section id='acceuil' className='w-full overflow-hidden'>
@@ -30,16 +30,16 @@ const Presentation = () => {
                data-aos-delay="100"
                className='flex items-center space-x-4 pt-5'>
                <LinkR to="contact" smooth={true} duration={500}>
-                <Button className='bg-blue-500 text-white hover:bg-blue-600 rounded-full'>
+                <Button className='bg-lime-600 text-gray-100 hover:bg-lime-600 rounded-full'>
                     Me Contacter
                 </Button>
                </LinkR>
-               <div className='text-blue-500'>
+               <div className='text-lime-500'>
                 <Link href={link[0]}>
                   <Linkedin />
                 </Link>
                </div>
-               <div className='text-blue-500'>
+               <div className='text-lime-500'>
                  <Link href={link[1]}>
                    <Github />
                  </Link>
@@ -49,11 +49,11 @@ const Presentation = () => {
           <div className='pt-5 pb-5 sm:pt-0'>
             <div className='w-full sm:w-[300px] h-full rounded-xl flex justify-center drop-shadow-sm hover:scale-105 transition-transform duration-300 ease-in-out items-center'>
               <Image 
-              src='/max2.png' 
+              src='/maxpro3.png' 
               alt='Max' 
-              width={300} 
-              height={300}
-              className='rounded-2xl' 
+              width={400} 
+              height={400}
+              className='rounded-2xl bg-gray-800' 
               />
             </div>
           </div> 
