@@ -66,7 +66,7 @@ const Skills = () => {
          <p className='text-gray-300 text-center pb-10'>Voila un aperçu de mes compétences </p>
          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4'>
             {sikills.map((skill) => (
-              <div key={skill.id} className='bg-gray-800/50 text-center p-4 rounded-2xl shadow-sm hover:scale-105 transition-transform duration-300 ease-in-out'>
+              <div key={skill.id} className='bg-gray-800/50 m-2 text-center p-4 rounded-2xl shadow-sm hover:scale-105 transition-transform duration-300 ease-in-out'>
                 <div className='flex items-center py-2 justify-center'>
                   {skill.icon}
                 </div>

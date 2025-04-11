@@ -47,7 +47,7 @@ const Presentation = () => {
             </div>
           </div>
           <div className='pt-5 pb-5 sm:pt-0'>
-            <div className='w-full sm:w-[300px] h-full rounded-xl flex justify-center drop-shadow-sm hover:scale-105 transition-transform duration-300 ease-in-out items-center'>
+            <div className='w-full sm:w-[300px] h-full flex justify-center drop-shadow-sm hover:scale-105 transition-transform duration-300 ease-in-out items-center'>
               <Image 
               src='/maxpro3.png' 
               alt='Max' 
