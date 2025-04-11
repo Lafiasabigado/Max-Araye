@@ -22,7 +22,7 @@ const Presentation = () => {
               <span className='pb-4'>Max Araye.</span>
             </p>
             <p className='dark:text-gray-300'>
-              Développeur back-end résidant au Bénin.
+              Développeur web back-end résidant au Bénin, passionné par le machine learning.
             </p>
             <div data-aos="fade-right"
                data-aos-delay="100"
