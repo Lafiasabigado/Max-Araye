@@ -8,7 +8,7 @@ const Testimonials = () => {
         Ce que disent mes clients après avoir collaboré avec moi
     </p>
 
-    <div className="max-w-3xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div className="max-w-5xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-6">
     {[1, 2, 3].map((_, i) => (
       <div key={i} className="bg-gray-800 rounded-2xl p-6 shadow-lg hover:scale-105 transition-transform duration-300">
         <div className="flex items-center space-x-4 mb-4">

@@ -68,7 +68,7 @@ const Skills = () => {
   ]
   return (
     <section className='max-w-5xl mx-auto pt-16'>
-      <div className='max-w-3xl mx-auto'>
+      <div className='max-w-5xl mx-auto'>
         <h2 className='text-2xl text-lime-500 font-bold mb-2 text-center uppercase'>Mes Compétences</h2>
          <p className='text-gray-300 text-sm text-center pb-10'>Découvrez un aperçu de mes compétences</p>
          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
