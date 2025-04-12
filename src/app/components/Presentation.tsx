@@ -4,7 +4,8 @@ import React from 'react'
 import Image from 'next/image'
 import { Button } from '@/components/ui/button'
 import { Github, Linkedin } from 'lucide-react'
-import Link from 'next/link'
+import { Link as LinkR } from 'react-scroll';
+import Link from 'next/link';
 
 const Presentation = () => {
   const link = [
@@ -27,12 +28,12 @@ const Presentation = () => {
             <div data-aos="fade-right"
                data-aos-delay="100"
                className='flex items-center space-x-4 pt-5'>
-               <Link href={'/contact'}>
+               <LinkR to='contact'>
                 <Button
                   className='bg-lime-600 text-gray-100 hover:bg-lime-700 rounded-full'
                 >Me Contacter
                </Button>
-               </Link>
+               </LinkR>
                <div className='text-lime-500'>
                 <Link href={link[0]}>
                   <Linkedin />

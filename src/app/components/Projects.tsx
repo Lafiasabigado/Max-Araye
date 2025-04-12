@@ -16,12 +16,12 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      name: "Unispace",
-      description: "Une application full stack pour la gestion des salles universitaires",
-      image: "/projects/unispace.jpeg",
-      demolink: "https://gestion-des-salles.vercel.app/",
-      githublink: "https://github.com/MaxLaPeuff/Unispace",
-      techno: ["#django", "postgresql", "git", "vercel", "render", "react"]
+      name: "Unispace Api",
+      description: "API d'une application pour la gestion des salles universitaires.",
+      image: "/projects/unispaceapi.jpeg",
+      demolink: "https://api-gestion-salle.onrender.com/",
+      githublink: "https://github.com/MaxLaPeuff/Project4",
+      techno: ["#django", "postgresql", "git", "vercel", "render"]
     },
     {
       id: 2,
@@ -43,13 +43,13 @@ const Projects = () => {
     },
     {
       id: 4,
-      name: "Unispace Api",
-      description: "API d'une application pour la gestion des salles universitaires.",
-      image: "/projects/unispaceapi.jpeg",
-      demolink: "/",
-      githublink: "https://github.com/MaxLaPeuff/Project4",
-      techno: ["#django", "postgresql", "git", "vercel", "render"]
-    }
+      name: "Unispace",
+      description: "Une application full stack pour la gestion des salles universitaires",
+      image: "/projects/unispace.jpeg",
+      demolink: "https://gestion-des-salles.vercel.app/",
+      githublink: "https://github.com/MaxLaPeuff/Unispace",
+      techno: ["#django", "postgresql", "git", "vercel", "render", "react"]
+    },
   ]
 
   return (
@@ -99,7 +99,7 @@ const Projects = () => {
         ))}
       </div>
       <div className='flex justify-center mt-8 mb-16'>
-        <LinkR to={'/projects'}>
+        <LinkR to={'projects'}>
           <Button className='bg-lime-600 uppercase text-gray-300 px-10 hover:bg-lime-700 rounded-full w-fit mx-auto'>Voir plus</Button>
         </LinkR>
       </div>
