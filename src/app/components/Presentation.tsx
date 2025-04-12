@@ -12,7 +12,7 @@ const Presentation = () => {
     "https://github.com/MaxLaPeuff"
   ]
   return (
-    <section className='w-full overflow-hidden'>
+    <section id='accueil' className='w-full overflow-hidden'>
       <div className='max-w-5xl mx-auto px-4 sm:px-6 lg:px-8'>
         <div className='gap-4 max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 md:grid-cols-2 items-center pt-32'>
           <div className=''>
@@ -22,14 +22,14 @@ const Presentation = () => {
               <span className='pb-4'>Max Araye.</span>
             </p>
             <p className='dark:text-gray-300'>
-              Développeur web back-end résidant au Bénin, passionné par le machine learning.
+              Développeur web back-end résidant au Bénin, passionné par la science des données et l'IA.
             </p>
             <div data-aos="fade-right"
                data-aos-delay="100"
                className='flex items-center space-x-4 pt-5'>
                <Link href={'/contact'}>
                 <Button
-                  className='bg-lime-600 text-gray-100 hover:bg-lime-500 rounded-full'
+                  className='bg-lime-600 text-gray-100 hover:bg-lime-700 rounded-full'
                 >Me Contacter
                </Button>
                </Link>

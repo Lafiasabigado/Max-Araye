@@ -1,7 +1,10 @@
 'use client'
+
 import React, { useState } from 'react'
 import Image from 'next/image'
+import { Button } from '@/components/ui/button'
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'
+import { Link as LinkR} from "react-scroll"
 
 const Projects = () => {
   const [activeProjectId, setActiveProjectId] = useState<number | null>(null)
@@ -94,6 +97,11 @@ const Projects = () => {
             </div>
           </div>
         ))}
+      </div>
+      <div className='flex justify-center mt-8 mb-16'>
+        <LinkR to={'/projects'}>
+          <Button className='bg-lime-600 uppercase text-gray-300 px-10 hover:bg-lime-700 rounded-full w-fit mx-auto'>Voir plus</Button>
+        </LinkR>
       </div>
     </section>
   )
