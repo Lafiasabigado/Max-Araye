@@ -21,6 +21,9 @@ const geistAnek = Anek_Telugu ({
 export const metadata: Metadata = {
   title: "Max Araye",
   description: "Développeur Back end",
+  icons: {
+    icon:'/maxpro3.png'
+  }
 };
 
 export default function RootLayout({
