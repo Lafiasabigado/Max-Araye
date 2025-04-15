@@ -20,7 +20,7 @@ const Projects = () => {
       description: "API d'une application pour la gestion des salles universitaires.",
       image: "/projects/unispaceapi.jpeg",
       demolink: "https://api-gestion-salle.onrender.com/",
-      githublink: "https://github.com/MaxLaPeuff/Project4",
+      githublink: "https://github.com/MaxLaPeuff/api_gestion_salle",
       techno: ["#django", "postgresql", "git", "vercel", "render"]
     },
     {
@@ -28,8 +28,8 @@ const Projects = () => {
       name: "Ministore",
       description: "Une application full stack pour la gestion des produits d'un magasin.",
       image: "/projects/ministore.png",
-      demolink: "https://ministore-m0zg.onrender.com/",
-      githublink: "https://github.com/MaxLaPeuff/Ministore",
+      demolink: "/projects/ministore.mp4",
+      githublink: "https://github.com/MaxLaPeuff/Projet-ministore",
       techno: ["#django", "postgresql", "git", "vercel", "render","bootstrap"]
     },
     {
@@ -38,7 +38,7 @@ const Projects = () => {
       description: "Un système de gestion des utilisateurs.",
       image: "/projects/authsystem.jpeg",
       demolink: "https://authentification-system.onrender.com/",
-      githublink: "https://github.com/MaxLaPeuff/Project3",
+      githublink: "https://github.com/MaxLaPeuff/Authentification_system",
       techno: ["#django", "postgresql", "git", "vercel", "render"]
     },
     {
@@ -46,8 +46,8 @@ const Projects = () => {
       name: "Unispace",
       description: "Une application full stack pour la gestion des salles universitaires",
       image: "/projects/unispace.jpeg",
-      demolink: "https://gestion-des-salles.vercel.app/",
-      githublink: "https://github.com/MaxLaPeuff/Unispace",
+      demolink: "/projects/unispace.mp4",
+      githublink: "https://github.com/MaxLaPeuff/api_gestion_salle",
       techno: ["#django", "postgresql", "git", "vercel", "render", "react"]
     },
   ]
@@ -55,7 +55,7 @@ const Projects = () => {
   return (
     <section id='projects' className='max-w-5xl mx-auto pt-16 px-4'>
       <h2 className='text-2xl text-lime-500 font-bold mb-4 text-center uppercase'>Mes Projets</h2>
-      <p className='text-gray-300 text-sm text-center pb-10'>Voici quelques-uns de mes projets que j'ai réalisés.</p>
+      <p className='text-gray-300 text-sm text-center pb-10'>Voici quelques-uns de mes projets.</p>
 
       <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
         {projects.map((project) => (
