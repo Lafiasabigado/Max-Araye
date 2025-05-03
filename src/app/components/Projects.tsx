@@ -28,7 +28,7 @@ const Projects = () => {
       name: "Ministore",
       description: "Une application full stack pour la gestion des produits d'un magasin.",
       image: "/projects/ministore.png",
-      demolink: "/projects/ministore.mp4",
+      demolink: "/projects/ministorevideo.mp4",
       githublink: "https://github.com/MaxLaPeuff/Projet-ministore",
       techno: ["#django", "postgresql", "git", "vercel", "render","bootstrap"]
     },
@@ -46,7 +46,7 @@ const Projects = () => {
       name: "Unispace",
       description: "Une application full stack pour la gestion des salles universitaires",
       image: "/projects/unispace.jpeg",
-      demolink: "/projects/unispace.mp4",
+      demolink: "/projects/unispacevideo.mp4",
       githublink: "https://github.com/MaxLaPeuff/api_gestion_salle",
       techno: ["#django", "postgresql", "git", "vercel", "render", "react"]
     },
