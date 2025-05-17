@@ -16,6 +16,24 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
+      name: "Nova-Créa",
+      description: "Nova-Créa est le site vitrine d'une agence de création digitales.",
+      image: "/projects/novacrea.png",
+      demolink: "https://nova-crea.vercel.app/",
+      githublink: "https://github.com/MaxLaPeuff/NovaCrea",
+      techno: ["#Html", "Css","TailwindCss","JS","vercel"]
+    },
+    {
+      id: 2,
+      name: "Gourmet-Moderne",
+      description: "Gourmet-Moderne est le site web d'un restaurant gastronomique",
+      image: "/projects/gourmet.png",
+      demolink: "https://gourmet-moderne.vercel.app/",
+      githublink: "https://github.com/MaxLaPeuff/Gourmet-moderne",
+      techno: ["#Html", "Css","TailwindCss","JS","vercel"]
+    },
+        {
+      id: 3,
       name: "Unispace Api",
       description: "API d'une application pour la gestion des salles universitaires.",
       image: "/projects/unispaceapi.jpeg",
@@ -24,7 +42,7 @@ const Projects = () => {
       techno: ["#django", "postgresql", "git", "vercel", "render"]
     },
     {
-      id: 2,
+      id: 4,
       name: "Ministore",
       description: "Une application full stack pour la gestion des produits d'un magasin.",
       image: "/projects/ministore.png",
@@ -33,7 +51,7 @@ const Projects = () => {
       techno: ["#django", "postgresql", "git", "vercel", "render","bootstrap"]
     },
     {
-      id: 3,
+      id: 5,
       name: "Authentification System",
       description: "Un système de gestion des utilisateurs.",
       image: "/projects/authsystem.jpeg",
@@ -42,7 +60,7 @@ const Projects = () => {
       techno: ["#django", "postgresql", "git", "vercel", "render"]
     },
     {
-      id: 4,
+      id: 6,
       name: "Unispace",
       description: "Une application full stack pour la gestion des salles universitaires",
       image: "/projects/unispace.jpeg",
